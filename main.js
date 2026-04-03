@@ -1,7 +1,7 @@
-import { initCourseUI } from '../ui/courseRender.js';
-import { companies } from '../core/data.js';
-import { renderCompanies, renderHistoricalData } from '../ui/render.js';
-import { initSandboxInteractions, setCurrentCompany, executeValuationPipeline } from '../ui/interactions.js';
+import { initCourseUI } from './ui/courseRender.js';
+import { companies } from './core/data.js';
+import { renderCompanies, renderHistoricalData } from './ui/render.js';
+import { initSandboxInteractions, setCurrentCompany, executeValuationPipeline } from './ui/interactions.js';
 
 let activeCompanyId = null;
 
