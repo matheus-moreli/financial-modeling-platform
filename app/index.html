@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valuation Masterclass | Do Zero ao DCF</title>
+    <!-- Fontes Clean Premium -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,600;1,600&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- MathJax for LaTeX Rendering -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="app-layout">
+        <!-- Barra Lateral de Progresso e Módulos -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <span class="logo-icon">▲</span>
+                    <span class="logo-text">Valuation<br>Masterclass</span>
+                </div>
+            </div>
+            
+            <div class="progress-container">
+                <div class="progress-details">
+                    <span class="progress-title">Seu Progresso</span>
+                    <span class="progress-percent" id="global-progress-value">0%</span>
+                </div>
+                <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" id="global-progress-fill" style="width: 0%;"></div>
+                </div>
+            </div>
+
+            <nav class="course-nav" id="course-sidebar-nav">
+                <!-- Gerado por JS -->
+            </nav>
+            
+            <div class="sidebar-footer">
+                <p>O Caminho para a Independência Financeira.</p>
+            </div>
+        </aside>
+
+        <!-- Área Principal de Leitura e Interação -->
+        <main class="main-content" id="main-view">
+            <!-- Gerado por JS baseado no módulo ativo -->
+        </main>
+    </div>
+
+    <!-- Os templates serão carregados por String via JS para evitar problemas de ID fantasma em memória -->
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
